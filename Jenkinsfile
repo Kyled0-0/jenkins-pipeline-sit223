@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Running unit and integration tests with JUnit and Katalon...'
+                echo 'Running unit and integration tests with Selenium and Katalon...'
             }
         }
         stage('Code Analysis') {
@@ -39,3 +39,4 @@ pipeline {
         }
     }
 }
+
