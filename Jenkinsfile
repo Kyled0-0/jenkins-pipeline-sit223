@@ -32,11 +32,12 @@ pipeline {
                 echo 'Running integration tests on staging environment...'
             }
         }
-        stage('Deploy to Production') {
+        stage('Deploy to Productions') {
             steps {
                 echo 'Deploying to production environment on AWS EC2...'
             }
         }
     }
 }
+
 
